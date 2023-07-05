@@ -1,0 +1,145 @@
+wbody {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #000000 35%, #2d344b, #a0a3ac 99%); ;
+}
+
+.content {
+    height: 1080px;
+    width: 1920px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content .slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 5px;
+    left: 680px;
+    display: flex;
+}
+
+.bar {
+
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .5s ease;
+
+}
+
+.bar:hover {
+    background-color: rgb(5, 5, 5);
+}
+
+input {
+  display: none;
+}
+
+.slides {
+    display: flex;
+    width: 2000%;
+    height: 100%;
+}
+
+.slide {
+    width: 5%;
+    transition: .6s;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+} 
+
+#slide2:checked ~ .s1 {
+    margin-left: -5%;
+} 
+
+#slide3:checked ~ .s1 {
+    margin-left: -10%;
+} 
+
+#slide4:checked ~ .s1 {
+    margin-left: -15%;
+} 
+
+#slide5:checked ~ .s1 {
+    margin-left: -20%;
+} 
+
+#slide6:checked ~ .s1 {
+    margin-left: -25%;
+} 
+
+#slide7:checked ~ .s1 {
+    margin-left: -30%;
+} 
+
+#slide8:checked ~ .s1 {
+    margin-left: -35%;
+} 
+
+#slide9:checked ~ .s1 {
+    margin-left: -40%;
+} 
+
+#slide10:checked ~ .s1 {
+    margin-left: -45%;
+} 
+
+#slide11:checked ~ .s1 {
+    margin-left: -50%;
+} 
+
+#slide12:checked ~ .s1 {
+    margin-left: -55%;
+}  
+
+#slide13:checked ~ .s1 {
+    margin-left: -60%;
+} 
+
+#slide14:checked ~ .s1 {
+    margin-left: -65%;
+} 
+
+#slide15:checked ~ .s1 {
+    margin-left: -70%;
+} 
+
+
+#slide16:checked ~ .s1 {
+    margin-left: -75%;
+} 
+
+#slide17:checked ~ .s1 {
+    margin-left: -80%;
+} 
+
+#slide18:checked ~ .s1 {
+    margin-left: -85%;
+} 
+
+#slide19:checked ~ .s1 {
+    margin-left: -90%;
+} 
+
+#slide20:checked ~ .s1 {
+    margin-left: -95%;
+} 
+
